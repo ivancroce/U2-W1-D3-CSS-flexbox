@@ -48,7 +48,6 @@ header {
 }
 
 /* Best selling products section */
-/* cards to continue 2x2 and not column */
 main {
   margin: 0 1rem;
 }
@@ -70,46 +69,32 @@ h1 {
   background-color: #fef7e2;
   border-radius: 40px;
   overflow: hidden;
-  width: 50%;
+  width: 48%;
   margin-bottom: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.card-img {
-  width: 100%;
 }
 
 .card-img img {
   width: 100%;
-  display: block;
 }
 
 .card-info {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 12px 15px 0;
+  justify-content: space-evenly;
+  padding: 10px 10px 5px;
 }
 
-.card-text {
-  flex: 1;
+.card-price {
+  padding: 0.6rem;
 }
 
 .card-text h4 {
-  margin: 0;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .card-text p {
   margin: 3px 0 0;
   font-size: 0.8rem;
-}
-
-.card-price {
-  font-weight: bold;
-  font-size: 1rem;
-  text-align: right;
+  text-align: center;
 }
 
 .card-button {
