@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: #742305;
+}
+
+/* Header nav bar */
+header {
+  background-color: #fef7e2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 25px;
+}
+
+.nav-item {
+  background-color: #ffdf7f;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 20px 15px;
+  border-radius: 50px;
+}
+
+.nav-item .logo {
+  padding: 20px 5px;
+}
+
+/* Best selling products section */
+/* cards to continue 2x2 and not column */
+main {
+  margin: 0 1rem;
+}
+
+h1 {
+  font-size: 2.8rem;
+  margin-top: 1.5rem;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  margin-top: 2rem;
+}
+
+.card-container {
+  background-color: #fef7e2;
+  border-radius: 40px;
+  overflow: hidden;
+  width: 50%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-img img {
+  width: 100%;
+  display: block;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 12px 15px 0;
+}
+
+.card-text {
+  flex: 1;
+}
+
+.card-text h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.card-text p {
+  margin: 3px 0 0;
+  font-size: 0.8rem;
+}
+
+.card-price {
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: right;
+}
+
+.card-button {
+  padding: 10px 0 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.add-to-cart {
+  background-color: #ffdf7f;
+  color: #742305;
+  border: none;
+  border-radius: 50px;
+  padding: 8px 50px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Latest News section */
+
+article {
+  margin-top: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+article p {
+  margin-block: 1rem;
+}
+
+.news-container {
+  background-color: #fef7e2;
+  padding: 1.5rem;
+  margin-top: 0.5rem;
+  border-radius: 25px;
+}
+
+.news-container img {
+  width: 100%;
+}
